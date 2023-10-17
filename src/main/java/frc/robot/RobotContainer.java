@@ -57,9 +57,9 @@ public class RobotContainer {
      * there is an incomplete object definition for the
      * "drivetrainDefaultCommand" object 
      * 
-     * complete the line by adding: 
+     * complete the line by deleting the "null" keyword below and adding: 
      * Command drivetrainDefaultCommand = new DrivetrainTankDrive(drivetrain, m_driverController);
-     * (new DrivetrainTankDrive referes to the command you were editing in todo step 2)
+     * (new DrivetrainTankDrive reference to the command you were editing in todo step 2)
      * 
      * Now we actually tell the drivetrain that this is its default command/behavior 
      * 
@@ -68,7 +68,7 @@ public class RobotContainer {
      * should look something like: drivetrain.setDefaultCommand(drivetrainDefaultCommand);
      */
 
-     Command drivetrainDefaultCommand = 
+     Command drivetrainDefaultCommand = null;
 
   }
 

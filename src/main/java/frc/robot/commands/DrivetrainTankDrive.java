@@ -30,7 +30,7 @@ public class DrivetrainTankDrive extends CommandBase {
   @Override
   public void execute() {
     /**
-     * TODO 2: now in this command class we want to call the tankdrive method we wrote 
+     * TODO 2: now in this command class we want to call the tankDrive method we wrote 
      * 
      * type drivetrain.tankDrive() 
      * 
@@ -50,9 +50,9 @@ public class DrivetrainTankDrive extends CommandBase {
      * controller methods map to on a real controller ask a lead to explain 
      * 
      * ----- Code Example: --------------------
-     * double controllerXval;
+     * double controllerXvalue;
      * 
-     * controllerXval = controller.getRightX()
+     * controllerXvalue = controller.getRightX()
      * ----------------------------------------
      * 
      * once you have defined and given your 2 variables values, you can pass them to your tank drive method 
