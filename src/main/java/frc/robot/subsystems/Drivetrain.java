@@ -45,7 +45,7 @@ public class Drivetrain extends SubsystemBase {
    * the speeds have to be different/opposite. To drive straight both sides must be at the same speed
    * (you can ask a lead to clarify what tank drive means if you are confused)
    */
-  public void tankDrive( double leftSpeed, double rightSpeed){
+  public void tankDrive(){
     // write the line: differentialDrive.tankDrive(leftSpeed, rightSpeed); 
     // to control the motors in a tank drive configuration 
     // (if you are unsure what the differentialDrive object is, it was defined earlier in this class. 

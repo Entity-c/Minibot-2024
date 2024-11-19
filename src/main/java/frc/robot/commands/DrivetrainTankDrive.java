@@ -68,7 +68,8 @@ public class DrivetrainTankDrive extends CommandBase {
   // Called once the command ends or is interrupted.
   @Override
   public void end(boolean interrupted) {
-    drivetrain.tankDrive(0.0, 0.0);
+    // TODO 5: following line should be uncommented to make sure the robot stops when the command ends
+    // drivetrain.tankDrive(0.0, 0.0);
   }
 
   // Returns true when the command should end.
